@@ -1,0 +1,2 @@
+timestamp,ticker,buy_price,quantity,current_price,invested,market_value,profit_loss,return_pct
+2026-10-24T03:33:47+05:30,TEST,100.0,5.0,120.0,500.0,600.0,100.0,20.0
