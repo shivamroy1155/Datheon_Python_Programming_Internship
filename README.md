@@ -24,6 +24,30 @@ python hangman.py
 ```
 Features: random secret word, six incorrect guesses, ASCII gallows, duplicate-guess protection, input validation, win/loss/quit screens.
 
+## Task 2: Stock Portfolio Performance Tracker
+
+**Description:** A Python-based portfolio tracking utility that calculates investment value, profit/loss, and percentage returns for multiple stock holdings.
+
+**Features:**
+- Accepts stock ticker symbols, purchase prices, share quantities, and current market prices.
+- Calculates total invested capital and current portfolio value.
+- Computes profit/loss and percentage return for each holding.
+- Displays a formatted portfolio summary in the terminal.
+- Saves transaction summaries with timestamps to `portfolio_summary.csv`.
+- Uses Python's built-in `csv` module for data storage.
+
+**Technologies Used:** Python 3, CSV module, File Handling, Datetime.
+
+**How to Run:**
+```bash
+python portfolio.py
+```
+Enter the stock ticker, buy price, quantity, and latest price when prompted. Type `DONE` to finish and generate the CSV report.
+
+**Note:** Current prices are entered manually; automatic live market-price fetching is not implemented in this version.
+
+**Deliverables:** `portfolio.py` and the generated `portfolio_summary.csv` file.
+
 ## Task 3: File Organizer
 First create a temporary test folder and put copies of a few sample files in it. Preview changes:
 ```bash
