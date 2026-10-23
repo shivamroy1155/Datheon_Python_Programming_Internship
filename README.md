@@ -44,7 +44,7 @@ python portfolio.py
 ```
 Enter the stock ticker, buy price, quantity, and latest price when prompted. Type `DONE` to finish and generate the CSV report.
 
-**Note:** Current prices are entered manually; automatic live market-price fetching is not implemented in this version.
+**Note:** The program attempts to fetch the latest available stock prices using Yahoo Finance through the `yfinance` library. If a price cannot be fetched, the user can enter it manually. Market data availability depends on the provider. This project is for educational purposes only.
 
 **Deliverables:** `portfolio.py` and the generated `portfolio_summary.csv` file.
 
